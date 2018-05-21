@@ -5,48 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Legato Framework</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>What is Legato</h1>
 
-    <p>
-        Legato is a simple yet powerful PHP framework for rapid application development that is suited for small to medium scale apps and APIs.
-    </p>
+    <nav class="nav-wrap">
+        <ul class="container nav flex flex-space-between">
+            <div class="nav__left">
+                <li class="nav__item">
+                    <a class="nav__link" href="/">Legato</a>
+                </li>
+            </div>
+            <div class="nav__right">
+                <li class="nav__item">
+                    <a class="nav__link" href="http://github.com">
+                        <img class="nav__icon" src="./img/github-logo.svg" alt="Github Logo">
+                        Github
+                    </a>
+                </li>
+            </div>
+        </ul>
+    </nav>
 
-    <p>
-        Legato framework is a seamless integration of powerful PHP packages from Symfony Components, illuminate, etc. with high performance.
-    </p>
+    <div class="container">
+        <div class="content-container">
+            <section class="section">
+                <h1 class="section__title">What is Legato</h1>
 
-    <h2>Who is Legato For?</h2>
-    <p>
-        Legato is for PHP developers who want to build apps instead of coding common things like validation, routing, database manipulation, etc. from scratch. Legato offers a set of well-defined toolkits that take care of those things allowing you to focus on building your app.
-    </p>
+                <p class="lead">
+                    Legato is a simple yet powerful PHP framework for rapid application development that is suited for small to medium scale apps and APIs.
+                </p>
 
-    <h3>Legato is right for you if:</h3>
+                <p>
+                    Legato framework is a seamless integration of powerful PHP packages from Symfony Components, illuminate, etc. with high performance.
+                </p>
+            </section>
 
-    <ul>
-        <li>
-            You want a framework with a small footprint.
-        </li>
-        <li>
-            You want a framework that is easy to use.
-        </li>
-        <li>
-            You need exceptional performance.
-        </li>
-        <li>
-            You need broad compatibility with standard hosting accounts that run a variety of PHP versions and configurations.
-        </li>
-        <li>
-            You want a framework that requires nearly zero configuration.
-        </li>
-        <li>
-            You want a framework that provides multiple options for template engines or using plain PHP.
-        </li>
-        <li>
-            You prefer simple solutions.
-        </li>
-    </ul>
+            <section class="section">
+                <h2 class="section__title section__title--smaller">Who is Legato For?</h2>
+                <p>
+                    Legato is for PHP developers who want to build apps instead of coding common things like validation, routing, database manipulation, etc. from scratch. Legato offers a set of well-defined toolkits that take care of those things allowing you to focus on building your app.
+                </p>
+            </section>
 
+            <section class="section">
+                <h3 class="section__title section__title--smaller">Legato is right for you if:</h3>
+
+                <ul class="features flex flex-wrap">
+                    <li class="features__item">
+                        <div class="features__content">
+                            You want a framework with a small footprint.
+                        </div>
+                    </li>
+                    <li class="features__item">
+                        <div class="features__content">
+                            You want a framework that is easy to use.
+                        </div>
+                    </li>
+                    <li class="features__item">
+                        <div class="features__content">
+                            You need exceptional performance.
+                        </div>
+                    </li>
+                    <li class="features__item">
+                        <div class="features__content">
+                            You need broad compatibility with standard hosting accounts that run a variety of PHP versions and configurations.
+                        </div>
+                    </li>
+                    <li class="features__item">
+                        <div class="features__content">
+                            You want a framework that requires nearly zero configuration.
+                        </div>
+                    </li>
+                    <li class="features__item">
+                        <div class="features__content">
+                            You want a framework that provides multiple options for template engines or using plain PHP.
+                        </div>
+                    </li>
+                    <li class="features__item">
+                        <div class="features__content">
+                            You prefer simple solutions.
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__right">
+                <div class="footer__item">
+                    Legato &copy; 2018
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
