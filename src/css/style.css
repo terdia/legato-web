@@ -11,6 +11,12 @@ body {
     margin-right: auto;
 }
 
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 40%;
+    }
+}
+
 /* Nav */
 .nav-wrap {
     width: 100%;
@@ -82,14 +88,13 @@ body {
     border-radius: 4px;
     cursor: pointer;
     flex: 0 1 100%;
-    border: 1px solid #c0c0c0;
+    border: 1px solid #dfdfdf;
     margin-right: 1rem;
     margin-bottom: 1rem;
 }
 
 .features__item:hover {
-    background: #959595;
-    color: #ffffff;
+    background: #ececec;
 }
 
 .features__content {
