@@ -17,6 +17,12 @@ body {
     }
 }
 
+@media screen and (max-width: 575.98px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
 /* Nav */
 .nav-wrap {
     width: 100%;
