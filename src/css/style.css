@@ -24,16 +24,18 @@ body {
 }
 
 /* Nav */
+.nav {
+    padding: 24px 0;
+}
+
 .nav-wrap {
     width: 100%;
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.05);
 }
 
-.nav {
-    padding: 24px 0;
-    list-style-type: none;
-    margin-top: 0;
+.nav__right {
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .nav__link {
@@ -80,6 +82,10 @@ body {
     justify-content: space-between;
 }
 
+.flex-vertical-center {
+    align-items: center;
+}
+
 .section:not(:first-child) {
     margin-top: 2rem;
 }
@@ -105,4 +111,10 @@ body {
 
 .features__content {
     padding: 1em;
+}
+
+/* Reset list styling */
+.ul-reset {
+    list-style-type: none;
+    padding: 0;
 }
