@@ -1,3 +1,9 @@
+:root {
+    --main-color: #625AFF;
+    --secondary-color: #4ECC34;
+    --tertiary-color: #342DB2;
+}
+
 body {
     color: #202124;
     font-size: 16px;
@@ -43,6 +49,10 @@ body {
     text-decoration: none;
 }
 
+.nav__link:not(:last-child) {
+    margin-right: 12px;
+}
+
 .nav__icon {
     height: 16px;
 }
@@ -63,6 +73,8 @@ body {
     color: #414141;
     font-size: 3rem;
     font-weight: 300;
+    margin: 0;
+    padding: 24px 0 0;
 }
 
 .section__title--smaller {
@@ -84,10 +96,6 @@ body {
 
 .flex-vertical-center {
     align-items: center;
-}
-
-.section:not(:first-child) {
-    margin-top: 2rem;
 }
 
 /* Others */
@@ -117,4 +125,57 @@ body {
 .ul-reset {
     list-style-type: none;
     padding: 0;
+}
+
+/* Section */
+.main-section {
+    background: #f2f2f2;
+    padding-bottom: 24px;
+    margin-top: 0 !important;
+}
+
+.main-section__action {
+    padding: 2em 0;
+}
+
+.button {
+    border-radius: 4px;
+    border: 1px solid #999;
+    border: transparent;
+    color: #ffffff;
+    font-size: 100%;
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+    transition:
+        color .15s ease-in-out,
+        background-color .15s ease-in-out,
+        border-color .15s ease-in-out,
+        box-shadow .15s ease-in-out;
+}
+
+.button--primary {
+    background-color: var(--main-color);
+}
+
+.button--secodary {
+    background: var(--secondary-color);
+}
+
+.button--outline-primary {
+    background-color: transparent;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+}
+
+.button--outline-primary:hover {
+    background-color: var(--main-color);
+    color: #ffffff;
+}
+
+.m-l-8 {
+    margin-left: 8px;
+}
+
+.m-r-8 {
+    margin-right: 8px;
 }
